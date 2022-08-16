@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a8173cc5a76f4d1f964db38e8db1c9b0" Name="Diagram1">
+        <EntityTypeShape EntityType="DbistanbulAkademiFlightModel.TblCity" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbistanbulAkademiFlightModel.TblFlight" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbistanbulAkademiFlightModel.TblPassenger" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbistanbulAkademiFlightModel.TblDepartment" Width="1.5" PointX="3.375" PointY="4" />
+        <EntityTypeShape EntityType="DbistanbulAkademiFlightModel.TblEmployee" Width="1.5" PointX="5.625" PointY="3.875" />
+        <AssociationConnector Association="DbistanbulAkademiFlightModel.FK_TblEmployee_TblDepartment" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
